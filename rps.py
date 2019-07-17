@@ -29,7 +29,7 @@ def play():
 			print("You played SCISSORS")
 			valid = True 
 		else:	
-			print("Input in valid: Try again")
+			print("Input invalid: Try again")
 
 	return int(selection)
 
