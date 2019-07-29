@@ -34,7 +34,7 @@ def play():
 	return int(selection)
 
 def cpu_play():
-	choice = random.randrange(1,3)
+	choice = random.randrange(1,4)
 	if choice == 1: 
 		print("CPU played ROCK")
 	elif choice == 2:
